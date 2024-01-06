@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "126627313943",
+    "project_id": "medialert-connection",
+    "storage_bucket": "medialert-connection.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126627313943:android:f9b5b27d266cb55ff31f52",
+        "android_client_info": {
+          "package_name": "com.example.medialert"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwLG6mZVN1jY9WXbxTrDhXgGCnaWJ4g_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

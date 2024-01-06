@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="labtest" type="id" />
+    <item name="health" type="id" />
+    <item name="addmedicin" type="id" />
+    <item name="buymedicin" type="id" />
+    <item name="scanner" type="id" />
+    <item name="logoutt" type="id" />
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".addmedicin">
+
+
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Medicine"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#DA2433"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/medicineNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Medicine Name"
+        android:textSize="20dp"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/dosageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dosage in mg"
+        android:textSize="20dp"
+        android:layout_below="@id/medicineNameEditText"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/frequencyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Medicin Type"
+        android:textSize="20dp"
+        android:layout_below="@id/dosageEditText"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/setReminderButton"
+        android:layout_width="353dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/frequencyEditText"
+        android:layout_marginTop="24dp"
+        android:text="Set Reminder"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="190dp"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="76dp"
+        android:text="Confirm"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+
+</RelativeLayout>

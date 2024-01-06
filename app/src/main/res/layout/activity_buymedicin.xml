@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F25587A"
+    tools:context=".Activity.BuyMedicineActivity"
+    >
+    <include layout="@layout/heading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/heading"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/heading"
+        android:layout_margin="10dp"
+        android:id="@+id/recyclerViewId"/>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        app:icon="@drawable/baseline_medical_services_24"
+        android:text="@string/add_medicine"
+        android:id="@+id/addMedicineId"
+        app:backgroundTint="@color/mainColor"
+        app:iconTint="@color/white"
+        android:textColor="@color/white"
+        android:layout_alignParentEnd="true"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottiId"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        app:lottie_rawRes="@raw/loading"
+        android:layout_centerInParent="true"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+</RelativeLayout>
