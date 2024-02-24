@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,7 +7,11 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity"
     android:orientation="vertical"
-    android:id="@+id/container">
+    android:id="@+id/container"
+    android:background="@drawable/main_background"
+    >
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -24,48 +29,47 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentRight="true"
-                android:layout_marginTop="57dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginRight="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="60dp"
+
                 android:gravity="center"
                 android:text=" Never Miss your Medicine Again"
-                android:textColor="@color/design_default_color_error"
+                android:textColor="@color/white"
                 android:textSize="35sp"
                 android:textStyle="bold" />
 
         </RelativeLayout>
 
         <GridLayout
+            android:id="@+id/mainGrid"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:columnCount="2"
-            android:rowCount="3"
+            android:layout_height="342dp"
             android:layout_weight="8"
+            android:columnCount="2"
             android:columnOrderPreserved="false"
             android:padding="14dp"
-            android:id="@+id/mainGrid"
-            >
+            android:rowCount="3">
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardlabtest"
-                android:clickable="true"
                 android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_columnWeight="1"
+                android:layout_height="70dp"
                 android:layout_rowWeight="1"
-                android:layout_marginBottom="16dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                android:layout_gravity="fill"
-                app:cardBackgroundColor="#5BC7D5"
-                app:cardElevation="8dp"
+                android:layout_marginBottom="16dp"
+                android:clickable="true"
+                app:cardBackgroundColor="#FFFFFF"
                 app:cardCornerRadius="8dp"
-                >
+                app:cardElevation="8dp">
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_margin="5dp"
                     android:layout_gravity="center_horizontal|center_vertical"
-                    >
+                    android:layout_margin="5dp">
 
                     <ImageView
                         android:layout_width="60dp"
@@ -73,237 +77,240 @@
                         android:layout_centerInParent="true"
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/home" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/design_default_color_error"
-                        android:text="My Profile"
-                        android:textAlignment="center"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
                         android:layout_alignParentBottom="true"
                         android:layout_centerHorizontal="true"
-                        />
-
+                        android:text="My Profile"
+                        android:textAlignment="center"
+                        android:textColor="#3369C8"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="5dp"/>
 
 
                 </RelativeLayout>
 
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardHealth"
-                android:clickable="true"
                 android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_columnWeight="1"
+                android:layout_height="70dp"
                 android:layout_rowWeight="1"
-                android:layout_marginBottom="16dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                android:layout_gravity="fill"
-                app:cardBackgroundColor="#73A8BF"
-                app:cardElevation="8dp"
+                android:layout_marginBottom="16dp"
+                android:clickable="true"
+                app:cardBackgroundColor="#ffffff"
                 app:cardCornerRadius="8dp"
-                >
+                app:cardElevation="8dp">
+
                 <RelativeLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_margin="5dp"
                     android:layout_gravity="center_horizontal|center_vertical"
-                    >
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:layout_centerHorizontal="true"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/care"
                         android:layout_centerInParent="true"
-                        />
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/care" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Health"
                         android:layout_alignParentBottom="true"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Health"
                         android:textAlignment="center"
-                        android:textColor="@color/design_default_color_error"
+                        android:textColor="#3369C8"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:layout_gravity="center_horizontal"/>
+                        android:layout_marginBottom="10dp"/>
 
                 </RelativeLayout>
 
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardAddMedicin"
-                android:clickable="true"
                 android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_columnWeight="1"
+                android:layout_height="70dp"
                 android:layout_rowWeight="1"
-                android:layout_marginBottom="16dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                android:layout_gravity="fill"
-                app:cardBackgroundColor="#5DA1AA"
-                app:cardElevation="8dp"
+                android:layout_marginBottom="16dp"
+                android:clickable="true"
+                app:cardBackgroundColor="#ffffff"
                 app:cardCornerRadius="8dp"
-                >
+                app:cardElevation="8dp">
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:layout_margin="5dp"
                     android:layout_gravity="center_horizontal|center_vertical"
-                    >
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_centerInParent="true"
                         android:src="@drawable/pill" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"
                         android:text="Add Medicine"
                         android:textAlignment="center"
-                        android:textColor="@color/design_default_color_error"
+                        android:textColor="#3369C8"
                         android:textSize="18sp"
-                        android:layout_centerHorizontal="true"
-                        android:layout_alignParentBottom="true"
-                        android:textStyle="bold"
-                        android:layout_gravity="center_horizontal"/>
+                        android:textStyle="bold" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardBuyMedicin"
-                android:clickable="true"
                 android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_columnWeight="1"
+                android:layout_height="70dp"
                 android:layout_rowWeight="1"
-                android:layout_marginBottom="16dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                android:layout_gravity="fill"
-                app:cardBackgroundColor="#71C3CD"
-                app:cardElevation="8dp"
+                android:layout_marginBottom="16dp"
+                android:clickable="true"
+                app:cardBackgroundColor="#ffffff"
                 app:cardCornerRadius="8dp"
-                >
+                app:cardElevation="8dp">
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:layout_margin="5dp"
                     android:layout_gravity="center_horizontal|center_vertical"
-                    >
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_centerInParent="true"
                         android:src="@drawable/buyy" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Buy Medicine"
-                        android:textAlignment="center"
-                        android:textColor="@color/design_default_color_error"
-                        android:textSize="18sp"
                         android:layout_alignParentBottom="true"
                         android:layout_centerHorizontal="true"
-                        android:textStyle="bold"
-                        android:layout_gravity="center_horizontal"/>
-
+                        android:layout_gravity="center_horizontal"
+                        android:text="Buy Medicine"
+                        android:textAlignment="center"
+                        android:textColor="#3369C8"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
 
 
                 </RelativeLayout>
 
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardScanner"
-                android:clickable="true"
                 android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_columnWeight="1"
+                android:layout_height="70dp"
                 android:layout_rowWeight="1"
-                android:layout_marginBottom="16dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                android:layout_gravity="fill"
-                app:cardBackgroundColor="#87BAC1"
-                app:cardElevation="8dp"
+                android:layout_marginBottom="16dp"
+                android:clickable="true"
+                app:cardBackgroundColor="#ffffff"
                 app:cardCornerRadius="8dp"
-                >
+                app:cardElevation="8dp">
+
                 <RelativeLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_margin="5dp"
                     android:layout_gravity="center_horizontal|center_vertical"
-                    >
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_centerInParent="true"
                         android:src="@drawable/scanner" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Prescriptions"
                         android:layout_alignParentBottom="true"
-                        android:textAlignment="center"
                         android:layout_centerHorizontal="true"
-                        android:textColor="@color/design_default_color_error"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Prescriptions"
+                        android:textAlignment="center"
+                        android:textColor="#3369C8"
                         android:textSize="18sp"
-                        android:textStyle="bold"
-                        android:layout_gravity="center_horizontal"/>
-
+                        android:textStyle="bold" />
 
 
                 </RelativeLayout>
 
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardLogOut"
-                android:clickable="true"
                 android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_columnWeight="1"
+                android:layout_height="70dp"
                 android:layout_rowWeight="1"
-                android:layout_marginBottom="16dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                android:layout_gravity="fill"
-                app:cardBackgroundColor="#54BFCD"
-                app:cardElevation="8dp"
+                android:layout_marginBottom="16dp"
+                android:clickable="true"
+                app:cardBackgroundColor="#ffffff"
                 app:cardCornerRadius="8dp"
-                >
+                app:cardElevation="8dp">
+
                 <RelativeLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_margin="5dp"
                     android:layout_gravity="center_horizontal|center_vertical"
-                    >
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_centerInParent="true"
                         android:src="@drawable/logout" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Log Out"
                         android:layout_alignParentBottom="true"
                         android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Log Out"
                         android:textAlignment="center"
-                        android:textColor="@color/design_default_color_error"
+                        android:textColor="#3369C8"
                         android:textSize="18sp"
-                        android:textStyle="bold"
-                        android:layout_gravity="center_horizontal"/>
+                        android:textStyle="bold" />
 
                 </RelativeLayout>
 
