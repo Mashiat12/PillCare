@@ -19,26 +19,47 @@
 
                 <ImageView
                     android:id="@+id/articleImageView"
-                    android:layout_width="match_parent"
-                    android:layout_height="219dp"
+                    android:layout_width="380dp"
+                    android:layout_height="271dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/health_image" />
-
+                    android:src="@drawable/health_pic"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="10dp"
-                    android:text="Body Mass Index Calculator"
-                    android:textSize="25sp"
+                    android:text="....Fitness is a Lifestyle...."
+                    android:textSize="27sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" "
+                    android:textSize="23sp"
                     android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="BMI CALCULATOR:"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Check your BMI to find out if you're a healthy weight for your height, and get advice on what to do next."
+                    android:textSize="23sp"/>
+
+                <TextView
+                    android:layout_width="142dp"
+                    android:layout_height="wrap_content"
+
                     android:layout_marginTop="50dp"
-                    android:text="Weight(in Kg)"
+                    android:text="Weight(in Kg):"
                     android:textSize="20dp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -49,15 +70,13 @@
 
                 <EditText
                     android:id="@+id/etWeight"
-                    android:layout_width="150dp"
+                    android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:layout_gravity="center_horizontal"
                     android:layout_marginTop="20dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
                     android:layout_marginTop="50dp"
                     android:text="Height (in cm)"
                     android:textSize="20dp"
@@ -70,11 +89,9 @@
 
                 <EditText
                     android:id="@+id/etHeight"
-                    android:layout_width="150dp"
+                    android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="20dp"
-                    android:textSize="20dp" />
+                    android:layout_marginTop="20dp"/>
 
                 <Button
                     android:id="@+id/calculate_btn"
