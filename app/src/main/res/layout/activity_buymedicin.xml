@@ -27,10 +27,11 @@
         app:icon="@drawable/baseline_medical_services_24"
         android:text="@string/add_medicine"
         android:id="@+id/addMedicineId"
-        app:backgroundTint="@color/mainColor"
+        app:backgroundTint="@color/main_color"
         app:iconTint="@color/white"
         android:textColor="@color/white"
-        android:layout_alignParentEnd="true"/>
+        android:layout_alignParentEnd="true"
+        android:textSize="15sp"/>
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottiId"

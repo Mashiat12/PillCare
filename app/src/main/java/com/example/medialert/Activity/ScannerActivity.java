@@ -64,7 +64,7 @@ public class ScannerActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scanner);
-        showToolbar("Scanner");
+        showToolbar("Prescriptions");
         prescriptionList=new ArrayList<>();
         firebaseDatabase=FirebaseDatabase.getInstance(Config.dbUrl);
         firebaseAuth=FirebaseAuth.getInstance();

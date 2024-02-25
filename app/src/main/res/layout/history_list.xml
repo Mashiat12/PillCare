@@ -31,20 +31,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
-                android:textSize="14sp"
-                android:id="@+id/nameTV"/>
+                android:textSize="18sp"
+                android:id="@+id/nameTV"
+                android:textStyle="bold"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
-                android:textSize="14sp"
-                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:layout_marginTop="0dp"
                 android:id="@+id/DescriptionTV"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
-                android:textSize="14sp"
+                android:textSize="18sp"
                 android:layout_marginTop="5dp"
                 android:id="@+id/timeTV"/>
 
@@ -55,7 +56,7 @@
             android:layout_centerVertical="true"
             android:layout_alignParentEnd="true"
             android:background="@drawable/button_main_color"
-            android:textSize="14sp"
+            android:textSize="18sp"
             android:text="Taken"
             android:textColor="@color/white"
             android:paddingStart="20dp"

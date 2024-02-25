@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_horizontal|center_vertical"
-            android:text="Take Image"
+            android:text="Add From Gallery"
             android:textAlignment="gravity"
             android:textColor="@color/white"
             android:textSize="16sp" />

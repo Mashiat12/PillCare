@@ -51,7 +51,7 @@ public class BuyMedicineActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_buymedicin);
-        showToolbar("Buy Medicine");
+        showToolbar("Available Medicine");
         sellMedicineList=new ArrayList<>();
         firebaseDatabase=FirebaseDatabase.getInstance(Config.dbUrl);
         firebaseAuth=FirebaseAuth.getInstance();

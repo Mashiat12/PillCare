@@ -35,7 +35,7 @@
                 android:gravity="center"
                 android:text=" Never Miss your Medicine Again"
                 android:textColor="@color/white"
-                android:textSize="35sp"
+                android:textSize="40sp"
                 android:textStyle="bold" />
 
         </RelativeLayout>
@@ -85,10 +85,10 @@
                         android:layout_centerHorizontal="true"
                         android:text="My Profile"
                         android:textAlignment="center"
-                        android:textColor="#3369C8"
-                        android:textSize="18sp"
+                        android:textColor="@color/main_color"
+                        android:textSize="20sp"
                         android:textStyle="bold"
-                        android:layout_marginBottom="5dp"/>
+                        android:layout_marginBottom="0dp"/>
 
 
                 </RelativeLayout>
@@ -131,8 +131,8 @@
                         android:layout_gravity="center_horizontal"
                         android:text="Health"
                         android:textAlignment="center"
-                        android:textColor="#3369C8"
-                        android:textSize="18sp"
+                        android:textColor="@color/main_color"
+                        android:textSize="20sp"
                         android:textStyle="bold"
                         android:layout_marginBottom="10dp"/>
 
@@ -176,8 +176,8 @@
                         android:layout_gravity="center_horizontal"
                         android:text="Add Medicine"
                         android:textAlignment="center"
-                        android:textColor="#3369C8"
-                        android:textSize="18sp"
+                        android:textColor="@color/main_color"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -216,10 +216,10 @@
                         android:layout_alignParentBottom="true"
                         android:layout_centerHorizontal="true"
                         android:layout_gravity="center_horizontal"
-                        android:text="Buy Medicine"
+                        android:text="Trade Med"
                         android:textAlignment="center"
-                        android:textColor="#3369C8"
-                        android:textSize="18sp"
+                        android:textColor="@color/main_color"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
 
@@ -263,8 +263,8 @@
                         android:layout_gravity="center_horizontal"
                         android:text="Prescriptions"
                         android:textAlignment="center"
-                        android:textColor="#3369C8"
-                        android:textSize="18sp"
+                        android:textColor="@color/main_color"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
 
@@ -308,8 +308,8 @@
                         android:layout_gravity="center_horizontal"
                         android:text="Log Out"
                         android:textAlignment="center"
-                        android:textColor="#3369C8"
-                        android:textSize="18sp"
+                        android:textColor="@color/main_color"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
                 </RelativeLayout>

@@ -8,19 +8,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="10dp"
-        app:cardElevation="2dp"
+        app:cardElevation="0dp"
         >
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="5dp">
+            android:padding="15dp">
             <androidx.cardview.widget.CardView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 app:cardCornerRadius="5dp"
                 android:id="@+id/one"
                 android:layout_centerVertical="true"
                 app:cardElevation="0dp">
+
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -30,7 +31,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginEnd="18dp"
                 android:orientation="vertical"
                 android:layout_toStartOf="@id/callId"
                 android:layout_centerVertical="true"
@@ -40,40 +42,42 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/medicineNameId"
-                    android:textSize="10sp"
+                    android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="@color/black" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/black"
-                    android:textSize="10sp"
+                    android:textSize="18sp"
                     android:id="@+id/descriptionId"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/black"
-                    android:textSize="10sp"
+                    android:textSize="18sp"
                     android:id="@+id/amountTV"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/black"
-                    android:textSize="10sp"
+                    android:textSize="18sp"
                     android:id="@+id/timeTV"/>
             </LinearLayout>
+
             <TextView
                 android:layout_width="80dp"
                 android:layout_height="30dp"
                 android:gravity="center"
                 android:layout_marginEnd="2dp"
-                android:background="@drawable/status_color"
+                android:background="@color/main_color"
                 android:layout_alignParentEnd="true"
                 android:textColor="@color/white"
-                android:textSize="10sp"
+                android:textSize="15sp"
                 android:text="Call"
                 android:layout_centerVertical="true"
-                android:id="@+id/callId"/>
+                android:id="@+id/callId"
+                />
         </RelativeLayout>
 
     </androidx.cardview.widget.CardView>
