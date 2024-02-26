@@ -45,13 +45,14 @@
                     android:layout_marginTop="10dp"
                     android:text="BMI CALCULATOR:"
                     android:textSize="23sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:textAppearance="@drawable/main_background"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="Check your BMI to find out if you're a healthy weight for your height, and get advice on what to do next."
+                    android:text="Check your BMI to find out if you're a healthy weight for your height."
                     android:textSize="23sp"/>
 
                 <TextView
@@ -149,7 +150,6 @@
                     android:layout_height="match_parent"
                     android:paddingTop="16dp"
                     android:text="@string/health_article_content"
-                    android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="normal" />
             </LinearLayout>

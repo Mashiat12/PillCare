@@ -7,69 +7,122 @@
     <string name='click_to_login'>Click here to login</string>
 
     <string name="health_article_content">
-        \n<b>BMI Categories:</b>\n\n
-Underweight = less than 18.5\n
-Normal weight = 18.5–24.9\n
-Overweight = 25–29.9\n
-Obesity = BMI of 30 or greater\n\n\n
-      <b >10 TIPS FOR MAINTAINING A HEALTHY..</b>
+    <![CDATA[
+        <b><font color="#004281">BMI Categories:</font></b><br/>
+        <font color="#004281">------------------------</font><br/><br/>
 
-        \n\n
-1. Measure and Watch Your Weight:\n\n
-Keeping track of your body weight on a daily or weekly basis will help you see what you’re losing and/or what
-you’re gaining.
-        \n\n
-2. Limit Unhealthy Foods and Eat Healthy Meals:\n\n
-Do not forget to eat breakfast and choose a nutritious meal with more protein and fiber and less fat, sugar, and
-calories. For more information on weight-control foods and dietary recommendations, please check the following
-website: www.hsph.harvard.edu/obesity-prevention-source/obesity-causes/diet-and-weight/.
-        \n\n
-3. Take Multivitamin Supplements:\n\n
-To make sure you have sufficient levels of nutrients, taking a daily multivitamin supplement is a good idea,
-especially when you do not have a variety of vegetables and fruits at home. Many micronutrients are vital to your
-immune system, including vitamins A, B6, B12, C, D, and E, as well as zinc, iron, copper, selenium, and magnesium.
-However, there’s currently NO available evidence that adding any supplements or “miracle mineral supplements”
-to your diet will help protect you from the virus or increase recovery. In some cases, high doses of vitamins can be
-bad for your health.
-        \n\n
-4. Drink Water and Stay Hydrated, and Limit Sugared Beverages:\n\n
-Drink water regularly to stay healthy, but there is NO evidence that drinking water frequently (e.g. every 15
-minutes) can help prevent any viral infection. For more information on drinking water and coronavirus, please
-check the following EPA website: www.epa.gov/coronavirus/coronavirus-and-drinking-water-and-wastewater.
-        \n\n
-5. Exercise Regularly and Be Physically Active:\n\n
-At this time, at-home workouts may be a good idea. But you can also walk your dog or run outside. Be sure you
-know what’s going on in your area and if there are any restrictions or mandatory self-quarantines. For more
-information on how to stay physically active while at home, please check the ACSM website: www.acsm.org/
-read-research/newsroom/news-releases/news-detail/2020/03/16/staying-physically-active-during-covid-19-
-pandemic.
-        \n\n
-6. Reduce Sitting and Screen Time:\n\n
-Exercise can’t immunize you from your sedentary time. Even people who exercise regularly could be at increased
-risk for diabetes and heart disease and stroke if they spend lots of time sitting behind computers. Practically
-speaking, you could consider taking breaks from sedentary time, such as walking around the office/room a couple
-of times in a day.
-        \n\n
-7. Get Enough Good Sleep:\n\n
-There is a very strong connection between sleep quality and quantity and your immune system. You can keep your
-immune system functioning properly by getting seven to eight hours of sleep each night. For more information,
-please check the CDC website: www.cdc.gov/sleep/index.html.
-        \n\n
-8. Go Easy on Alcohol and Stay Sober:\n\n
-Drinking alcohol does not protect you from the coronavirus infection. Don’t forget that those alcohol calories can
-add up quickly. Alcohol should always be consumed in moderation. Please see the recommendations by the AHA:
-www.heart.org/en/healthy-living/healthy-eating/eat-smart/nutrition-basics/alcohol-and-heart-health.
-        \n\n
-9. Find Ways to Manage Your Emotions:\n\n
-It is common for people to have feelings of fear, anxiety, sadness, and uncertainty during a pandemic. To minimize
-stress-related weight gain, you use this information about stress and coping provided by the CDC: www.cdc.gov/
-coronavirus/2019-ncov/prepare/managing-stress-anxiety.html.
-        \n\n
-10. Use an App to Keep Track of Your Movement, Sleep, and Heart Rate:\n
-A reminder: People with serious chronic medical conditions, including extreme obesity, diabetes, and heart disease
-are at a higher risk of experiencing complications and getting very sick from the COVID-19 infection. They should talk
-to their medical providers and listen to their advice.
-    </string>
+        <font color="#004281">->Underweight = less than 18.5 </font><br/>
+        <font color="#004281">->Normal weight = 18.5–24.9  </font><br/>
+        <font color="#004281">->Overweight = 25–29.9     </font><br/>
+        <font color="#004281">->Obesity = BMI of 30 or greater</font><br/><br/><br/>
+        <font color="#000000">Recommendations based on BMI categories:</font><br/> <font color="#000000">--------------------------------</font><br/><br/>
+        <b><font color="#004281">1. Underweight:</font></b><br/>
+        <font color="#000000">If your BMI is less than 18.5, focus on gaining weight through a balanced diet rich in nutrients. Consult with a nutritionist for a personalized plan.</font><br/>
+        <br/>
+        <b><font color="#004281">2. Normal Weight:</font></b><br/>
+        <font color="#000000">Congratulations! Maintain your weight through a healthy diet, regular exercise, and good sleep. Monitor your BMI regularly for any changes.</font><br/>
+        <br/>
+        <b><font color="#004281">3. Overweight:</font></b><br/>
+        <font color="#000000">Work on losing weight gradually through a combination of a calorie-controlled diet and increased physical activity. Consult a healthcare professional for guidance.</font><br/>
+        <br/>
+        <b><font color="#004281">4. Obesity:</font></b><br/>
+        <font color="#000000">Obesity poses health risks. Seek professional help for a comprehensive weight management plan, including diet, exercise, and possibly medical intervention.</font><br/><br/>
+          <font color="#004281">________________________</font><br/>
+          <b><font color="#004281">Healthy Living Across Ages:</font></b><br/>
+          <font color="#004281">________________________</font><br/><br/>
+          <br/>
+
+        <font color="#000000">Leading a healthy life involves different strategies at various ages. Here are some age-specific recommendations:</font><br/>
+        <br/>
+        <b><font color="#004281">1. Childhood (0-12 years):</font></b><br/>
+        <font color="#000000">Encourage a balanced diet, active play, and sufficient sleep. Limit screen time and foster healthy habits early.</font><br/>
+        <br/>
+        <b><font color="#004281">2. Adolescence (13-19 years):</font></b><br/>
+        <font color="#000000">Emphasize balanced nutrition, regular exercise, and proper hydration. Educate about the importance of mental health and self-care.</font><br/>
+        <br/>
+        <b><font color="#004281">3. Adulthood (20-60 years):</font></b><br/>
+        <font color="#000000">Maintain a healthy weight, exercise regularly, and prioritize stress management. Regular health check-ups are essential for preventive care.</font><br/>
+        <br/>
+        <b><font color="#004281">4. Senior Years (60+ years):</font></b><br/>
+        <font color="#000000">Focus on a nutrient-rich diet, engage in low-impact exercises, and stay socially connected. Regular health screenings become even more crucial.</font><br/><br/><br/>
+          <font color="#004281">________________________</font><br/><br/> <font color="#004281">20 Tips for a Healthier Life:</font></b><br/> <font color="#004281">________________________</font><br/><br/>
+        <b><br/>
+        <b><font color="#004281">1.</font></b> <font color="#000000">Stay hydrated by drinking plenty of water.</font><br/> <br/>
+<b><font color="#004281">2.</font></b> <font color="#000000">Include a variety of fruits and vegetables in your diet.</font><br/> <br/>
+<b><font color="#004281">3.</font></b> <font color="#000000">Engage in regular physical activity to maintain a healthy lifestyle.</font><br/> <br/>
+<b><font color="#004281">4.</font></b> <font color="#000000">Get enough quality sleep each night to support overall well-being.</font><br/> <br/>
+<b><font color="#004281">5.</font></b> <font color="#000000">Limit the intake of sugary and processed foods in your diet.</font><br/> <br/>
+<b><font color="#004281">6.</font></b> <font color="#000000">Practice stress-reducing activities, such as meditation or deep breathing.</font><br/> <br/>
+<b><font color="#004281">7.</font></b> <font color="#000000">Maintain a healthy weight through a balanced diet and regular exercise.</font><br/> <br/>
+<b><font color="#004281">8.</font></b> <font color="#000000">Avoid smoking and limit alcohol consumption for better health.</font><br/> <br/>
+<b><font color="#004281">9.</font></b> <font color="#000000">Prioritize mental health by seeking support and practicing self-care.</font><br/> <br/>
+<b><font color="#004281">10.</font></b> <font color="#000000">Stay socially connected with friends and family for emotional well-being.</font><br/> <br/>
+<b><font color="#004281">11.</font></b> <font color="#000000">Practice good hygiene habits to prevent the spread of illnesses.</font><br/> <br/>
+<b><font color="#004281">12.</font></b> <font color="#000000">Limit screen time and take breaks to protect your eyes and posture.</font><br/> <br/>
+<b><font color="#004281">13.</font></b> <font color="#000000">Challenge your mind with activities like puzzles or learning new skills.</font><br/> <br/>
+<b><font color="#004281">14.</font></b> <font color="#000000">Foster positive relationships and surround yourself with supportive individuals.</font><br/> <br/>
+<b><font color="#004281">15.</font></b> <font color="#000000">Practice gratitude to promote a positive outlook on life.</font><br/> <br/>
+<b><font color="#004281">16.</font></b> <font color="#000000">Limit exposure to environmental pollutants for better respiratory health.</font><br/> <br/>
+<b><font color="#004281">17.</font></b> <font color="#000000">Educate yourself about your own health and make informed decisions.</font><br/> <br/>
+<b><font color="#004281">18.</font></b> <font color="#000000">Schedule regular health check-ups and screenings for early detection of issues.</font><br/> <br/>
+<b><font color="#004281">19.</font></b> <font color="#000000">Set realistic goals and celebrate your achievements along the way.</font><br/> <br/>
+<b><font color="#004281">20.</font></b> <font color="#000000">Find joy in hobbies and activities that bring fulfillment to your life.</font><br/> <br/>
+        <font color="#004281">________________________</font><br/><b><font color="#004281">10 TIPS To Be Safe..</font></b><br/>
+        <font color="#004281">________________________</font><br/><br/>
+
+        <b><font color="#004281">1. Measure and Watch Your Weight:</font></b><br/><br/>
+        <font color="#000000">Keeping track of your body weight on a daily or weekly basis will help you see what you’re losing and/or what
+        you’re gaining.</font><br/>
+        <br/>
+        <b><font color="#004281">2. Limit Unhealthy Foods and Eat Healthy Meals:</font></b><br/><br/>
+        <font color="#000000">Do not forget to eat breakfast and choose a nutritious meal with more protein and fiber and less fat, sugar, and
+        calories. For more information on weight-control foods and dietary recommendations, please check the following
+        website: <a href="http://www.hsph.harvard.edu/obesity-prevention-source/obesity-causes/diet-and-weight/">www.hsph.harvard.edu/obesity-prevention-source/obesity-causes/diet-and-weight/</a>.</font><br/>
+        <br/>
+        <b><font color="#004281">3. Take Multivitamin Supplements:</font></b><br/><br/>
+        <font color="#000000">To make sure you have sufficient levels of nutrients, taking a daily multivitamin supplement is a good idea,
+        especially when you do not have a variety of vegetables and fruits at home. Many micronutrients are vital to your
+        immune system, including vitamins A, B6, B12, C, D, and E, as well as zinc, iron, copper, selenium, and magnesium.
+        However, there’s currently NO available evidence that adding any supplements or “miracle mineral supplements”
+        to your diet will help protect you from the virus or increase recovery. In some cases, high doses of vitamins can be
+        bad for your health.</font><br/>
+        <br/>
+        <b><font color="#004281">4. Drink Water and Stay Hydrated, and Limit Sugared Beverages:</font></b><br/><br/>
+        <font color="#000000">Drink water regularly to stay healthy, but there is NO evidence that drinking water frequently (e.g. every 15
+        minutes) can help prevent any viral infection. For more information on drinking water and coronavirus, please
+        check the following EPA website: <a href="http://www.epa.gov/coronavirus/coronavirus-and-drinking-water-and-wastewater/">www.epa.gov/coronavirus/coronavirus-and-drinking-water-and-wastewater</a>.</font><br/>
+        <br/>
+        <b><font color="#004281">5. Exercise Regularly and Be Physically Active:</font></b><br/><br/>
+        <font color="#000000">At this time, at-home workouts may be a good idea. But you can also walk your dog or run outside. Be sure you
+        know what’s going on in your area and if there are any restrictions or mandatory self-quarantines. For more
+        information on how to stay physically active while at home, please check the ACSM website: <a href="http://www.acsm.org/read-research/newsroom/news-releases/news-detail/2020/03/16/staying-physically-active-during-covid-19-pandemic/">www.acsm.org/read-research/newsroom/news-releases/news-detail/2020/03/16/staying-physically-active-during-covid-19-pandemic</a>.</font><br/>
+        <br/>
+        <b><font color="#004281">6. Reduce Sitting and Screen Time:</font></b><br/><br/>
+        <font color="#000000">Exercise can’t immunize you from your sedentary time. Even people who exercise regularly could be at increased
+        risk for diabetes and heart disease and stroke if they spend lots of time sitting behind computers. Practically
+        speaking, you could consider taking breaks from sedentary time, such as walking around the office/room a couple
+        of times in a day.</font><br/>
+        <br/>
+        <b><font color="#004281">7. Get Enough Good Sleep:</font></b><br/><br/>
+        <font color="#000000">There is a very strong connection between sleep quality and quantity and your immune system. You can keep your
+        immune system functioning properly by getting seven to eight hours of sleep each night. For more information,
+        please check the CDC website: <a href="http://www.cdc.gov/sleep/index.html">www.cdc.gov/sleep/index.html</a>.</font><br/>
+        <br/>
+        <b><font color="#004281">8. Go Easy on Alcohol and Stay Sober:</font></b><br/><br/>
+        <font color="#000000">Drinking alcohol does not protect you from the coronavirus infection. Don’t forget that those alcohol calories can
+        add up quickly. Alcohol should always be consumed in moderation. Please see the recommendations by the AHA:
+        <a href="http://www.heart.org/en/healthy-living/healthy-eating/eat-smart/nutrition-basics/alcohol-and-heart-health/">www.heart.org/en/healthy-living/healthy-eating/eat-smart/nutrition-basics/alcohol-and-heart-health</a>.</font><br/>
+        <br/>
+        <b><font color="#004281">9. Find Ways to Manage Your Emotions:</font></b><br/><br/>
+        <font color="#000000">It is common for people to have feelings of fear, anxiety, sadness, and uncertainty during a pandemic. To minimize
+        stress-related weight gain, you use this information about stress and coping provided by the CDC: <a href="http://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html">www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html</a>.</font><br/>
+        <br/>
+        <b><font color="#004281">10. Use an App to Keep Track of Your Movement, Sleep, and Heart Rate:</font></b><br/>
+        <font color="#000000">A reminder: People with serious chronic medical conditions, including extreme obesity, diabetes, and heart disease
+        are at a higher risk of experiencing complications and getting very sick from the COVID-19 infection. They should talk
+        to their medical providers and listen to their advice.</font>
+    ]]>
+</string>
 
     <string name="welcome">Welcome!</string>
     <string name="login">Login</string>
